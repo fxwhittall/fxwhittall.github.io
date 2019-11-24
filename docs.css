@@ -1,3 +1,9 @@
 body, html {
 	font-family: verdana;
+	background-color: #366149;
+	color: #ffffff;
+}
+
+hr{
+	size: 10px;
 }
