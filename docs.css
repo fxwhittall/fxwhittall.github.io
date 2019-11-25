@@ -1,9 +1,29 @@
 body, html {
 	font-family: verdana;
-	background-color: #366149;
-	color: #ffffff;
+	background-color: #b3ffd9;
 }
 
-hr{
-	size: 10px;
+h1{
+	text-decoration: underline;
+}
+
+a{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #008040;
+}
+
+td{
+	padding: 10px;
+}
+
+nav{
+	position: fixed;
+	color: #b3ffd9;
+	top: 0;
+	width: 100%;
+	padding: 20px;
 }
