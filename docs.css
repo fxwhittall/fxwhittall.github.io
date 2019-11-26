@@ -23,8 +23,20 @@ td{
 
 nav{
 	position: fixed;
-	color: #b3ffd9;
+	background-color: #00331a;
 	top: 0;
 	width: 100%;
 	padding: 20px;
+}
+
+.navbar{
+	padding: 10px;
+}
+
+.navbar:hover{
+	color: white;
+}
+
+.heading-img{
+	padding-top: 70px;
 }
