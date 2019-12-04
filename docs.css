@@ -21,12 +21,6 @@ td{
 	padding: 10px;
 }
 
-nav{
-	position: fixed;
-	background-color: #00331a;
-	top: 0;
-}
-
 .navbar-fxw{
 	padding: 10px;
 }
@@ -37,4 +31,8 @@ nav{
 
 .table-fxw{
 	padding: 20px;
+}
+
+.heading-img{
+	padding-top: 70px;
 }
