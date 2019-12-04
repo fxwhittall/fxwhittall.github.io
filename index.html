@@ -2,25 +2,34 @@
 <html lang="en">
 <head>
 	<title>Fay X. Whittall</title>
-  	<link rel="stylesheet" href="docs.css">
+	<!--Bootstrap -->
   	 <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+	<!--My own css -->
+	<link rel="stylesheet" href="docs.css">
 </head>
 <body>
 	<!-- Nav Bar -->
-	<nav>
-		<a class="navbar" href="https://github.com/fxwhittall" target="_blank">GITHUB</a>
-		<a class="navbar" href="https://www.linkedin.com/in/fxwhittall" target="_blank">LINKEDIN</a>
-		<a class="navbar" href="./fxwhittall-Resume.pdf" target="_blank">MY RESUME</a>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+   			<div class="navbar-header">
+    			<a class="navbar-brand" href="#">Fay X. Whittall</a>
+    		</div>
+    		<ul class="nav navbar-nav">
+     			<li><a class="navbar-fxw" href="https://github.com/fxwhittall" target="_blank">GITHUB</a>
+      			<li><a class="navbar-fxw" href="https://www.linkedin.com/in/fxwhittall" target="_blank">LINKEDIN</a>
+      			<li><a class="navbar-fxw" href="./fxwhittall-Resume.pdf" target="_blank">MY RESUME</a>
+ 			</ul>
+		</div>
 	</nav>
 	<!-- Heading-->
 	<div id="heading" align="center">
 		<img class="heading-img" src="./fay.JPG" height="200" alt="image of Fay Whittall">
-		<h1>Fay X. Whittall</h1>
+		<h1><b>Fay X. Whittall</b></h1>
 		<h2>Worcester Polytechnic Institute Class of 2021</h2>
 		<h2>Computer Science Major ~ Data Science Minor</h2>
 		<br/>
@@ -28,7 +37,7 @@
 	<!-- Projects -->
 	<div id="projects">
 		<h1>Projects</h1>
-		<table>
+		<table class="table-fxw">
 			<tr>
 				<td>
 					<img src="./pathfinding-app.png" height="300" alt="home screen of pathfinding application">
@@ -46,7 +55,7 @@
 				<td>
 					<h3>Portfolio Website</h3>
 					<!-- TODO: rewrite, add link to "our website" -->
-					<p>I wrote this website on my own entirely in html and css. I taught myself html and css through the help of brothers in my fraternity, as I had worked under our web chair to keep up <a href="https://users.wpi.edu/~apo/" target="_blank">our website</a>.</p>
+					<p>I wrote this website on my own using html, css, and bootstrap libraries. I was taught my myself and brothers in my fraternity, Alpha Phi Omega - Omicron Iota Chapter, as I had worked under our web chair to keep up <a href="https://users.wpi.edu/~apo/" target="_blank">our website</a>.</p>
 					<p><a href="https://github.com/fxwhittall/fxwhittall.github.io" target="_blank">Repository</a></p>
 				</td>
 			</tr>

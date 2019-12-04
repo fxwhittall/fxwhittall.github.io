@@ -25,18 +25,16 @@ nav{
 	position: fixed;
 	background-color: #00331a;
 	top: 0;
-	width: 100%;
-	padding: 20px;
 }
 
-.navbar{
+.navbar-fxw{
 	padding: 10px;
 }
 
-.navbar:hover{
+.navbar-fxw:hover{
 	color: white;
 }
 
-.heading-img{
-	padding-top: 70px;
+.table-fxw{
+	padding: 20px;
 }
