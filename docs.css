@@ -22,17 +22,29 @@ td{
 }
 
 .navbar-fxw{
+	background-color: #00331a;
+}
+
+.navbar-txt{
 	padding: 10px;
 }
 
-.navbar-fxw:hover{
+.navbar-txt:hover{
 	color: white;
 }
 
-.table-fxw{
+.table-txt{
 	padding: 20px;
 }
 
 .heading-img{
 	padding-top: 70px;
+}
+
+.title-txt{
+	padding-left: 10px;
+}
+
+.repo-txt{
+	font-size: 100;
 }
