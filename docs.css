@@ -21,6 +21,11 @@ td{
 	padding: 10px;
 }
 
+.body-not-nav{
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
 .navbar-fxw{
 	background-color: #00331a;
 }
@@ -43,8 +48,4 @@ td{
 
 .title-txt{
 	padding-left: 10px;
-}
-
-.repo-txt{
-	font-size: 100;
 }
