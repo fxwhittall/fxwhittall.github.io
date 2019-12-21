@@ -21,22 +21,31 @@ td{
 	padding: 10px;
 }
 
-nav{
-	position: fixed;
-	background-color: #00331a;
-	top: 0;
-	width: 100%;
-	padding: 20px;
+.body-not-nav{
+	margin-right: 50px;
+	margin-left: 50px;
 }
 
-.navbar{
+.navbar-fxw{
+	background-color: #00331a;
+}
+
+.navbar-txt{
 	padding: 10px;
 }
 
-.navbar:hover{
+.navbar-txt:hover{
 	color: white;
+}
+
+.table-txt{
+	padding: 20px;
 }
 
 .heading-img{
 	padding-top: 70px;
+}
+
+.title-txt{
+	padding-left: 10px;
 }
