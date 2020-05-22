@@ -30,6 +30,16 @@ td{
 	padding: 10px;
 }
 
+hr{
+	margin: 1em;
+	border-color: #080c40;
+}
+
+.site-info{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .navbar-fxw{
 	background-color: #080c40;
 }
@@ -44,8 +54,4 @@ td{
 
 .heading-img{
 	padding-top: 70px;
-}
-
-.title-txt{
-	padding-left: 10px;
 }
