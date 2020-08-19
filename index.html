@@ -4,12 +4,13 @@
 	<title>Fay X. Whittall</title>
 	<meta charset="ASCII">
 	<!--Bootstrap -->
-  	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  	<!-- CSS only -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 	<!--font for star ratings--> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!--My own css -->
@@ -17,42 +18,49 @@
 </head>
 <body>
 	<!-- Nav Bar -->
-	<nav class="navbar navbar-inverse navbar-fixed-top navbar-fxw">
-		<div class="container-fluid">
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg fixed-top navbar-fxw">
    			<div class="navbar-header">
-   				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-items">
-   					<span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>                        
-			      </button>
-    			<a class="navbar-brand" href="#">FAY X. WHITTALL</a>
+    			<a class="navbar-brand navbar-txt" href="#">FAY X. WHITTALL</a>
+    			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-items">MENU
+    			</button>
     		</div>
     		<div class="collapse navbar-collapse" id="nav-items">
 	    		<ul class="nav navbar-nav">
 	    			<li><a class="navbar-txt" href="#projects">PROJECTS</a>
 	    			<li><a class="navbar-txt" href="#skills">SKILLS & TOOLS</a>
-	    			<li><a class="navbar-txt" href="#coursework">COURSEWORK</a>
+	    			<li><a class="navbar-txt" href="#coursework">COURSES</a>
 	    		</ul>
-	    		<ul class="nav navbar-nav navbar-right">
+	    		<ul class="nav navbar-nav">
 	     			<li><a class="navbar-txt" href="https://github.com/fxwhittall" target="_blank">GITHUB</a>
 	      			<li><a class="navbar-txt" href="https://www.linkedin.com/in/fxwhittall" target="_blank">LINKEDIN</a>
 	      			<li><a class="navbar-txt" href="https://twitter.com/FayWhittall" target="_blank">TWITTER</a>
 	      			<li><a class="navbar-txt" href="./FXWhittall_Resume.pdf" target="_blank">RESUME</a>
 	 			</ul>
  			</div>
-		</div>
-	</nav>
+		</nav>
+	</div>
 	<!-- Heading-->
 	<div id="heading" class="heading-img" align="center">
 		<h1>FAY X. WHITTALL</h1>
 		<h2>Worcester Polytechnic Institute Class of 2021</h2>
 		<h2>Computer Science Major ~ Data Science Minor</h2>
+		<br/>
+		<h2>NOTE: This website is currently under construction.</h2>
 		<p>Hello! I'm Fay, a rising senior at WPI studying computer science. I have worked for two years as a research assistant with the <a href="https://www.seedsofstem.org/" target="_blank">Seeds of STEM project</a>, which assesses the effectiveness of an engineering curriculum for Pre-K classrooms. So far, I've programmed in Java, C, and C++, and have learned some Python, Javascript, and HTML/CSS. I'm a hardworking, fast-learning, and looking forward to enhancing my skills. Feel free to take a look at what I have done so far!</p>
 		<br/>
 	</div>
 	<!-- Projects -->
 	<section id="projects" class="site-info, container-fluid">
 		<h1>Projects</h1>
+		<div class="row" align="center">
+			<div class="col-md-6" align="center">
+			</div>
+			<div class="col-md-6" align="left">
+				<h3>A Pipeline for Bio-Data: to be completed by May 2021</h3>
+				<p>In the next school year, I will be working with three other computer science students and two biomedical engineering students to create an accessible database application to store biomedical information.</p>
+			</div>
+		</div>
 		<div class="row">
 			<div class="col-md-6" align="center">
 				<img src="./pathfinding-app.png" class="img-rounded" height="300" alt="home screen of pathfinding application">
@@ -117,14 +125,6 @@
 			</div>
 		</div>
 		<hr />
-		<div class="row" align="center">
-			<div class="col-md-6" align="center">
-			</div>
-			<div class="col-md-6" align="left">
-				<h3>A Pipeline for Bio-Data: to be completed by May 2021</h3>
-				<p>In the next school year, I will be working with three other computer science students and two biomedical engineering students to create an accessible database application to store biomedical information.</p>
-			</div>
-		</div>
 		<br />
 	</section>
 	<!--Skills-->
