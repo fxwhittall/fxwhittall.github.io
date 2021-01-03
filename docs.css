@@ -60,6 +60,12 @@ hr{
 	color: white !important;
 }
 
+.text-only-row{
+	justify-content: center;
+	padding-left: 10em;
+	padding-right: 10em;
+}
+
 .navbar-toggler{
 	border-color: var(--nav-text-color);
 	background-color: var(--nav-text-color);
